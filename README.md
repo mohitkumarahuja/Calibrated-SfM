@@ -1,0 +1,2 @@
+# Calibrated-SfM
+Incremental SfM is the standard approach that adds on one image at a time to grow the reconstruction. While this method is robust, it is not scalable because it requires repeated operations of expensive bundle adjustment. Global SfM is different from incremental SfM in that it considers the entire view graph at the same time instead of incrementally adding more and more images to the Reconstruction.
